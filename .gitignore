@@ -1,0 +1,69 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+error.log
+access.log
+
+# Cache directories
+cache/
+sessions/
+temp/
+tmp/
+
+# Upload directories  
+uploads/
+!uploads/.gitkeep
+
+# Vendor directories (if using composer)
+vendor/
+
+# Node modules (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Backup files
+*.backup
+*.bak
+
+# Docker volumes
+data/
+mysql-data/
+redis-data/
+
+# SSL certificates
+*.key
+*.crt
+*.pem
+
+# PHP specific
+composer.phar
+composer.lock
